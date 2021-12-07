@@ -1,22 +1,32 @@
-register-step-2.html<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
-
-Выберите катеорию
-Поищите что-нибудь
-Популярные
-Супы
-Горячие блюда
-Сеты
-Пиццы
-WOK
+<main>
+    <h2>Выберите категорию</h2>
+    <hr>
 
 
+    <form action="https://www.google.com/search?q=" target="_blank">
+<!--        <input type="hidden" name="searchid" value="808327">-->
+        <input type="search" name="text" required placeholder="Поищите что нибудь">
+    </form>
 
-
+<!--    <input type="text" placeholder="Поищите что нибудь">-->
+    <br>
+    <hr>
+    <br>
+    <ul>
+        <li><a href="https://yandex.ru/search/?text=топчик пожрать">Популярные</a></li>
+        <li><a href="https://yandex.ru/search/?text=солянка">Супы</a></li>
+        <li><a href="https://www.google.ru/search?q=блюда с огоньком">Горячие блюда</a></li>
+        <li><a href="https://www.google.ru/search?q=алкосеты">Сеты</a></li>
+        <li><a href="https://www.google.ru/search?q=пицца">Пиццы</a></li>
+        <li><a href="https://www.google.ru/search?q=WOK">WOK</a></li>
+    </ul>
+</main>
 </body>
 </html>
